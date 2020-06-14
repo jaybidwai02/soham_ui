@@ -19,6 +19,7 @@ module.exports = {
    	contentBase: "./",
      publicPath: '/dist',
      hot: false,
+     port: 9090,
      watchContentBase: true, 
      watchOptions: {
       poll: true
