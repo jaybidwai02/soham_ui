@@ -1,0 +1,12 @@
+body{
+	background:powderblue;
+}
+.title{
+	color: red;
+}
+.info{
+    font-style: italic;
+}
+#about{
+	color:red;
+}

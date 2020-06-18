@@ -1,0 +1,21 @@
+body{
+	background:red;   /*element selector */
+}
+h1{
+	color:white;      /*element selector */
+}
+p{
+	color:green;      /*element selector */
+} 
+.sam{
+	color:blue;       /* class selector */
+}
+.get{
+	color:yellow;     /* class selector */
+}
+#sometext{
+	color:powderblue; /* id selector    */ 
+}
+#aclass{
+	color:green;      /* id selector    */
+}
