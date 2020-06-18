@@ -1,12 +1,30 @@
 body{
 	background:powderblue;
 }
-.title{
-	color: red;
-}
-.info{
-    font-style: italic;
-}
-#about{
+h1:hover{
 	color:red;
+}	
+.to-all{
+	color:white;        /* classes and id's selector   */   
 }
+.about{
+	color:green;
+}
+#contact-us{
+   color: gray;
+}	
+li:first-child{
+	color:orange;    /*for first child */
+}
+li:last-child{
+	color:green;        /*for last child  */
+}
+li:nth-child(2){
+	color:white;       /*for nth child means direct put a number of child element */
+}
+li:only-child{
+	color:purple;      /*for only one child is present in a list */
+}
+/*td:only-child{
+	 color:purple;       for only one td is present in table
+} */
