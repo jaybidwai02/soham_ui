@@ -1,11 +1,38 @@
-body{
-	background:powderblue;
+ body{
+/*background:rgb(204, 220, 255);     normal background tag without alpha   */   	 
+/*background:rgba(204, 220, 255, 1);*//*opacity/transperncy defind by a in rgb like<background:rgba();>  */
+  /*	background: url("https://cdn2.outdoorphotographer.com/2019/11/Kiss_The_Landscape_Part2_05.jpg");
+	 
+	
+	                         /* both way are work  */
+/*   background:linear-gradient(to bottom, rgb(212, 111, 23), rgba(212, 111, 23, 0));	                         
+  /* font-size:2em;    */   /*em increase given font size  
+   /*font-size:2cm; */  /*font size in cm,mm absolute units
+  /* text-transform:capitalize; */  /*text manipulation(2.text transform)
+   text-align:justify;          /*text manipulation(3.text align) center,left,right
+   font-size:1.25em;
+   font-family:"Times New Roman", sans-serif;  */
+   /*https://fonts.google.com*/   
+   
+background-image:url("https://cdn2.outdoorphotographer.com/2019/11/Kiss_The_Landscape_Part2_05.jpg");
+
+
+ }
+ /*.info{
+	font-style: italic;
 }
 h1:hover{
 	color:red;
-}	
+}
+
 .to-all{
-	color:white;        /* classes and id's selector   */   
+	color:white;         classes and id's selector      
+}
+.about:hover{
+	color:red;
+}
+h2[class~=caa-about]{
+	background-color:white;   white space attribute selector [~=]
 }
 .about{
 	color:green;
@@ -13,18 +40,100 @@ h1:hover{
 #contact-us{
    color: gray;
 }	
-li:first-child{
-	color:orange;    /*for first child */
+ li:first-child{
+	color:orange;    for first child 
 }
 li:last-child{
-	color:green;        /*for last child  */
+	color:green;        for last child  
 }
 li:nth-child(2){
-	color:white;       /*for nth child means direct put a number of child element */
-}
+	color:white;       for nth child means direct put a number of child element 
+} 
+
 li:only-child{
-	color:purple;      /*for only one child is present in a list */
-}
-/*td:only-child{
+	color:purple;      for only one child is present in a list 
+}  
+td:only-child{
 	 color:purple;       for only one td is present in table
-} */
+} 
+
+ #google-link:link{
+	color:blue;                 pseudo selector  
+}
+#google-link:visited{
+	color:red;
+} 
+
+h2,a{
+	color:blue;
+}
+h2[class=service]{
+	color:purple;        attribute selector 
+
+table[class=table]{
+	border:3px dotted gray;
+}
+textarea ~ button{
+	color:blue; 
+}
+ul > li{
+	color:purple;              child selector 
+}
+ ul li{
+	color:green;          decendent selector 
+}
+ul li{
+	color:purple;         decendent selector
+}    */ 
+
+#service-image{
+  height: 300px;     /* increase 400times 1% of the body*/
+                    /*there are also some absolute units are cm,mm,pt,pc,px,%*/
+  width:70%;      /* (view port)increase 1% some width*/
+
+
+
+   
+/*background:linear-gradient(to right, red, green);  */                                 	/*1.linear gradient*/
+/*background:linear-gradient(to bottom, orange, white, green);  */                          /*1.linear gradient*/
+/*background:linear-gradient(to bottom, #d46d06, #ffffff, #379909); */                      /*1.linear gradient*/
+/*background:linear-gradient(to right , rgb(212, 111, 23), rgba(212, 111, 23, 0)); */       /*1.linear gradient*/
+/* background:linear-gradient(to bottom left , rgb(212, 111, 23), rgba(212, 111, 23, 0));*/ /*2.digonal gradient*/
+/*background:linear-gradient(146deg, rgb(212, 111, 23), rgba(212, 111, 23, 0));*/       	/*2.digonal gradient*/   
+ 
+/*background:radial-gradient(green, white, orange);  */   /*3.Radial Gradient order by inner to outer*/ 
+/*background:radial-gradient(red 55%, orange 45%);   */   /*3.Radial Gradient by percentage*/
+background:radial-gradient(circle,red 55%, orange 45%);          /*3.Radial Gradient by shape*/
+}
+/* 
+ #title:hover{
+	color: rgb(00, 200, 00);        rgb color 
+	font-weight:100;
+}
+.subtitle{
+    color: rgb(232, 125, 196);	    rgb color   
+    background-color: blue;
+    font-weight:400;
+    font-family:"Lato", sans-serif;  external font family sans-serif
+}  
+
+#link
+{	text-decoration:underline;
+	text-decoration:overline;
+	text-decoration:line-through;       text manipulation(1.text decoration)
+	text-decoration:none;   
+} 
+.latin{
+	font-style:italic;
+}    */
+
+                                          /*The box model*/
+               /*Padding(use for internal space) represent space between content and border*/
+               /*border is devider between the paddding and margin*/
+               /*margin (use for external space)is the space between the border and all other content*/
+               /*Changing context size by inspect the page*/
+/*-----------------------------------------------------------------------------------------------------*/               
+                                          /*CSS Borders*/
+.about-img{
+	height: 300px;
+}                                          
