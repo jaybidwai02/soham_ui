@@ -1,2 +1,2 @@
-alert(123)
+alert(1234)
 import "../main.scss"
