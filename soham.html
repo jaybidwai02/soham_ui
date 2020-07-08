@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+	<title>flexbox</title>
+  <link rel="stylesheet" href="E:\study1\soham_ui\src\scss\soham.css">
+</head>
+<body>
+  <h2 class="subtitle" id="about-me">About me</h2>
+	<table border="3px"; class="table">
+	<thead>
+    		<tr>
+    			<td>Lorem</td>
+    			<td>Ipsum</td>
+    			<td>Dollar</td>
+    		</tr>
+    	</thead>
+   <tbody>
+   	<tr>
+   		<td>Sit</td>
+   		<td>Amet</td>
+   		<td>Consectetur</td>
+   	</tr>
+   	<tr>
+   		<td>Adipisicing</td>
+   		<td>Elit</td>
+   		<td>Sed</td>
+   	</tr>
+   </tbody>
+</table>
+<div id="ser-img"></div>
+
+<div class="container">
+	<div class="container-item" style="order: 3;">A</div> <!--numeriacl Flex Order-->
+	<div class="container-item" style="order: 4;
+  align-self: flex-start;">B</div> <!--numeriacl Flex Order-->
+	<div class="container-item" style="order: 5;">C</div> <!--numeriacl Flex Order-->
+	<div class="container-item" style="order: 1;">D</div> <!--numeriacl Flex Order-->
+	<div class="container-item" style="order: 2;
+  align-self: flex-start;">E</div> <!--numeriacl Flex Order-->
+</div>
+<div class="grid">
+  <div class="grid-item" style="background:red; 
+  /*grid-column: 1 / span 3            /*grid column line prop.
+  grid-row: 1 / span 2;*/
+  grid-area: 2 / 1 / span 2 / span 3;">1</div>      <!--grid row line prop.-->
+  <div class="grid-item" style="background:orange">2</div>
+  <div class="grid-item" style="background:green">3</div>
+  <div class="grid-item" style="background:yellow">4</div>
+  <div class="grid-item" style="background:blue">5</div>
+  <div class="grid-item" style="background:red">6</div>
+  <div class="grid-item" style="background:orange">7</div>
+  <div class="grid-item" style="background:green">8</div>
+  <div class="grid-item" style="background:yellow">9</div>
+  <div class="grid-item" style="background:blue">10</div>
+</div>
+<h2 class="subtitle">Contact-us</h2>
+<form>
+    	<input type="text" placeholder="Full Name" class="from-input"><br>
+    	<input type="text" placeholder="Email" class="from-input"><br>
+    	<textarea></textarea>  <br>
+    	<button class="button">Submit</button>		
+</form>
+</body>
+</html>
