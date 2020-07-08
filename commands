@@ -1,0 +1,13 @@
+commands
+
+npm run start -> to start local dev server (to compile sass to css)
+
+git status -> to check the modified/added files
+
+git add <file-name> -> to add specific file
+
+git add . -> to add all modified files
+
+git comment -m "message" -> to commit all the changes so that we can push to cloud
+
+git push origin <branch-name> -> to push changes to cloud
