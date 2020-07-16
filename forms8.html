@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h2>This is forms</h2>
+	<label for="name">Name: </label>
+	<div>
+	    <input type="text" name="myName" id="name">
+    </div><br>
+    <div>
+    	Role: <input type="text" name="myRole">
+    </div><br>
+    <div>
+		Email: <input type="email" name="myEmail">
+    </div><br>
+    <div>
+		Date: <input type="date" name="myDate">
+    </div><br>
+    <div>
+            <!--In radio type name must be....SAME...in all radio options-->	
+        Gender: Male<input type="radio" name="myGender"> 
+		        Female: <input type="radio" name="myGender">			
+		        Other: <input type="radio" name="myGender">
+    </div><br>
+    <div>
+		Bonus: <input type="number" name="myBonus">
+    </div><br>
+    <!--after selecting a label name input option will be highlighted-->
+    <label for="checked">Are you eligible?:</label>
+    <div>	
+    	<input type="checkbox" name="eligibility" id="checked">
+    	                                <!--Chacked means bydefault ceckbox is marked -->
+    </div><br>
+    <div>
+    	About urself:<br><textarea name="mytext" cols="90" rows="10"></textarea>
+    </div><br>
+    <div>
+    	<label for="car">Car:</label>
+    	<select name="myCar" id="car">
+    		<option value="Indica">Indica</option>
+    		<option value="Ford" selected>Ford</option>
+    	</select>
+    </div><br>
+    <div>
+		<input type="submit" value="Submit now">
+		<input type="reset" value="Reset now">
+    </div><br>
+    
+</body>
+</html>

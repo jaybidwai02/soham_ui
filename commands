@@ -1,6 +1,13 @@
 commands
 
+// Local enviourment
+
 npm run start -> to start local dev server (to compile sass to css)
+open browser -> http://localhost:9090
+
+
+
+// For Git
 
 git status -> to check the modified/added files
 

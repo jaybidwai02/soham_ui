@@ -1,0 +1,16 @@
+.sam li{
+	display:inline-flex;
+	margin-top:15px;
+	margin-left:15px;
+}
+.sam li a{
+	text-decoration:none;
+	color:black;
+}
+.sam li a:hover{
+	color:blue;
+}
+.sub-menu{
+	margin-top:15px;
+	margin-left:15px;
+}

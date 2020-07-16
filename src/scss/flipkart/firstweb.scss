@@ -1,0 +1,45 @@
+.parent{
+	background:#2874f0;
+	height:60px;
+	img{
+		position:absolute;
+		margin-left:27%;
+		margin-top:20px;
+		height:23px;
+		width:75px;
+	}
+	.search{
+		height:30px;
+		width:500px;
+		margin-top:15px;
+		margin-left:34%;
+		border:none;
+	}
+	button{
+	  height:30px;
+	  width:80px;
+	  border:none;
+	  margin-left:25px;	
+	}
+	a{
+		text-decoration:none;
+		color:white;
+		font-size:15px;
+		padding:30px;
+	}
+}
+.menu{
+	border:1px solid white;
+    background:#f2eded;
+	height:40px;
+	li{
+		display:inline-block;
+		list-style:none;
+		position:static;
+	}
+	li a{
+		text-decoration:none;
+		color:black;
+		padding-left:55px;
+	}
+}

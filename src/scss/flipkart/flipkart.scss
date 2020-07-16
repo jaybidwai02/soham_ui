@@ -1,22 +1,6 @@
-.menu {
-	background-color:#ffffff;
-    text-align:center;
-    ul {
-    	display:inline-flex;
-		list-style:none;     /*for removing a list type order(ol) or unorder(ul)*/
-	    padding-top: 35px;
-	    li {
-	    	padding:10px;
-			margin:20px;
-			line-height:5px;
-		    font-size:15px;
-		    font-family:sans-serif;
-	    }
-    }
-    a {
-    	text-decoration:none;
-		color:black;
-    }
-
-
+.container{
+      
+      .search{
+          background-color:blue;	
+      }
 }
