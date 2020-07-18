@@ -1,3 +1,5 @@
-export const fun1 = (msg) => {
-	alert(msg)
-}
+import $ from 'jquery';
+
+$("#showMe").click(() => {
+	$("#test").toggleClass("hide");
+})
