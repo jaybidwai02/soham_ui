@@ -1,13 +1,15 @@
-body {
-	background: blue;
-}
-
-#test {
-	width: 200px;
-	height: 200px;
-	background-color: red;
-	
-	&.hide {
-		display: none;
-	}
+.intro-head{
+     text-align:center;
+     background: linear-gradient(to right, rgb(77, 102, 191), rgb(10, 39, 143));
+     color:white;
+     padding:30px 0;
+     font-family: "Roboto",sans-serif;
+        h1{
+        	margin-bottom: 25px;
+        }
+     		h3{
+     			display: inline-block;
+     		    width: 49%;
+     		    font-size:1.25rem;
+     		}
 }
