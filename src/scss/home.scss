@@ -15,17 +15,18 @@
         font-size: 20px;
     }
 }
-.logo-star{
-    display:inline-block;
-    background-size:100%;
-}
-.btn-logo{
-    background-image: url("/src/resources/img/icons8-github-100.png");
-}
 .main {
     margin: 25px 120px 0 120px;
+
     .git-start {
-        border: 1px solid black;
+        .btn-logo {
+            background-image: url("/src/resources/img/icons8-christmas-star-24.png");
+        }
+
+        background:#d6d8d9;
+        border: 1px solid #c6c8ca;
+        ;
+        border-radius:5px;
 
         p {
             font-size: 18px;
@@ -33,9 +34,10 @@
             padding: 18px 0 18px 22%;
         }
 
-        button {
-            float: right;
-            margin:18px 40px;
+        span {
+            background: #333;
+            border: 1px solid black;
+            padding: 5px 5px;
         }
     }
 }
