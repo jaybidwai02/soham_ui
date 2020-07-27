@@ -1,15 +1,41 @@
-.intro-head{
-     text-align:center;
-     background: linear-gradient(to right, rgb(77, 102, 191), rgb(10, 39, 143));
-     color:white;
-     padding:30px 0;
-     font-family: "Roboto",sans-serif;
-        h1{
-        	margin-bottom: 25px;
+.intro-head {
+    text-align: center;
+    background: linear-gradient(to right, rgb(77, 102, 191), rgb(10, 39, 143));
+    color: white;
+    padding: 30px 0;
+    font-family: "Roboto", sans-serif;
+
+    h1 {
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        display: inline-block;
+        width: 49%;
+        font-size: 20px;
+    }
+}
+.logo-star{
+    display:inline-block;
+    background-size:100%;
+}
+.btn-logo{
+    background-image: url("/src/resources/img/icons8-github-100.png");
+}
+.main {
+    margin: 25px 120px 0 120px;
+    .git-start {
+        border: 1px solid black;
+
+        p {
+            font-size: 18px;
+            display: inline-block;
+            padding: 18px 0 18px 22%;
         }
-     		h3{
-     			display: inline-block;
-     		    width: 49%;
-     		    font-size:1.25rem;
-     		}
+
+        button {
+            float: right;
+            margin:18px 40px;
+        }
+    }
 }
