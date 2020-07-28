@@ -15,6 +15,7 @@
         font-size: 20px;
     }
 }
+
 .main {
     margin: 25px 120px 0 120px;
 
@@ -25,7 +26,6 @@
 
         background:#d6d8d9;
         border: 1px solid #c6c8ca;
-        ;
         border-radius:5px;
 
         p {
@@ -35,9 +35,170 @@
         }
 
         span {
+            margin-top: 10px;
             background: #333;
             border: 1px solid black;
             padding: 5px 5px;
+        }
+    }
+}
+
+.dwn-logo {
+    background-image: url("/src/resources/img/icons8-download-32.png");
+    width: 13px;
+    height: 10px;
+}
+
+.pro-logo {
+    background-image: url("/src/resources/img/icons8-diamond-100.png");
+    width: 13px;
+    height: 10px;
+}
+
+.me-row1 {
+    padding-bottom: 40px;
+    border-bottom: 1px solid $primary-gray;
+
+    .heading {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .sub-heading {
+        padding-top: 15px;
+        font-size: 17px;
+        text-align: center;
+
+        a {
+            text-decoration: underline;
+            color: black;
+        }
+    }
+
+    .lang-img {
+        margin-top: 30px;
+        width: 540px;
+        height: 203px;
+        border-radius: 5px;
+    }
+
+    .btn {
+        ul {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        li {
+            background: $primary-blue;
+            display: inline-block;
+            list-style: none;
+            border-radius: 3px;
+            padding: 13px 16px;
+            font-size: 11px;
+            margin-right: 7px;
+        }
+    }
+
+    .jQ {
+        margin-right: 29px;
+    }
+
+    .ang {
+        .btn {
+            li {
+                background: $primary-red;
+            }
+        }
+    }
+
+    .reAct {
+        margin-right: 29px;
+
+        .btn {
+            li {
+                background: $primary-skyblue;
+            }
+        }
+    }
+
+    .Vue {
+        .btn {
+            li {
+                background: $primary-green;
+            }
+        }
+    }
+}
+
+.enq{
+    border-bottom: 1px solid $primary-gray;
+    .lang-img {
+        margin-top: 30px;
+        width: 540px;
+        height: 290px;
+        border-radius: 5px;
+    }
+    .heading {
+        padding-top: 15px;
+        text-align: center;
+        font-size: 23px;
+    }
+    .enq-btn{
+        ul {
+            text-align: center;
+            margin: 15px 0 35px 0;
+        }
+        li {
+            background: $primary-blue;
+            display: inline-block;
+            list-style: none;
+            border-radius: 3px;
+            padding: 13px 20px;
+            font-size: 11px;
+            margin-right: 7px;
+            .logo{
+                padding:0 5px;
+            }
+            .dwn-logo{
+                width:3px;
+            }
+        }
+    }
+    .ecom{
+        margin-right:29px;
+     }
+}
+
+.sponsers{
+    border-bottom: 1px solid $primary-gray;
+    .title{
+        .spon-list{
+            padding:30px 0;
+            text-align:center;
+            .mdb-img{
+                  vertical-align:middle;
+                  width:60px;
+                  height:20px;
+                  span{
+                    padding:0 0 0 25px;
+                  }
+            }
+        }
+    }
+    .company-list{
+        margin-bottom:20px;
+        ul{
+            text-align:center;
+        }
+        li{
+            padding:0 10px;
+            display:inline-block;
+            list-style:none;
+            .spon-img{
+                width:80px;
+                height:20px;
+            }
         }
     }
 }

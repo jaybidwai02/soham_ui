@@ -19,6 +19,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9084,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scss/gloab.scss",
+			"settings":
+			{
+				"buffer_size": 370,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scss/veriable.scss",
+			"settings":
+			{
+				"buffer_size": 195,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -68,12 +95,15 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Jay/Languages/soham/soham_ui",
-		"/D/Jay/Languages/soham/soham_ui/src",
-		"/D/Jay/Languages/soham/soham_ui/src/js"
+		"/E/study1/soham_ui",
+		"/E/study1/soham_ui/src",
+		"/E/study1/soham_ui/src/scss"
 	],
 	"file_history":
 	[
+		"/E/study1/soham_ui/node_modules/browserify-rsa/node_modules/bn.js/lib/bn.js",
+		"/E/study1/soham_ui/main.scss",
+		"/E/study1/points",
 		"/D/Jay/Languages/soham/soham_ui/sublime_package",
 		"/D/Jay/Languages/soham/soham_ui/src/js/home.js",
 		"/D/Jay/Languages/soham/soham_ui/src/js/demo.js",
@@ -128,8 +158,99 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9000,
+								9000
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1937.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/scss/gloab.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/scss/veriable.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								139
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -139,7 +260,7 @@
 	},
 	"input":
 	{
-		"height": 45.0
+		"height": 52.0
 	},
 	"layout":
 	{
