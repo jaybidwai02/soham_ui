@@ -1,0 +1,111 @@
+@media (max-width: 760px){
+	.menubar{
+		.menu-btn{
+			li{
+				.mob-btn{
+					display: none;
+				}
+			}
+		}
+	}
+
+	.intro-head{
+		h1{
+			font-size: 30px;
+		span{
+			display: inline-block;
+		}
+		}
+		h3{
+			width: 100%;
+		}
+
+	}
+
+	.main{
+		margin: 25px 15px 0 15px;
+		.git-start{
+			height: 100px;
+			a{
+				margin: 0;
+			}
+			p{
+				width: 100%;
+			}
+		.main-btn{
+			float: none;
+			text-align: center;
+			margin: 10px 0;
+		}	
+		}
+
+	}
+
+	.me-row1{
+		.mob-adj{
+			margin-top: 20px;
+			width: 100%;
+		}
+	}
+
+	.enq{
+		.ecom,
+		.admin{
+			width: 100%;
+		}
+		.admin{
+			.lang-img{
+				margin-top: 0;
+			}
+		}
+	}
+
+    .sponsers {
+		.company-list{
+			ul{
+				padding-left: 30px;
+			}
+	 		li{
+	 			padding: 0;
+	 		}
+	 	}
+	}
+
+	.news{ 
+		.news-category{ 
+			.news-row{ 
+				.al-img{
+				     margin-top: 15px;	
+				}
+			}
+		}
+	}
+
+	.resourse{ 
+		.re-img{
+			width: 100%;
+		}
+	}
+
+	.about{ 
+		.con-btn{
+             display: none;
+		}	
+	}	
+
+	.information{ 
+		.container{ 
+			ul{
+				padding: 15px;
+			}
+		  	.usefull{
+		  		float: none;
+		  		text-align: center;
+		  	}
+		  	hr{
+		  		width: 25%;
+		  		display: inline-block;
+		  	}
+		}  		
+	}	  		
+}

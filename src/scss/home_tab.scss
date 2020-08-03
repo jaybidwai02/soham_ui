@@ -1,0 +1,154 @@
+@media (max-width: 1024px) {
+    .menubar {
+        position: static;
+        .menu-btn {
+            li {
+                margin: 10px;
+
+                a {
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .signup-menu {
+                .for-tb {
+                	display:none;
+                }
+                .for-tl{
+                	span{
+                		display:none;
+                	}
+                }
+        }
+    }
+    
+    .container{
+        margin-top: 0;    
+    }
+
+    .intro-head {
+        span{
+            display: block;
+        }
+    }
+
+    .main{
+    	margin:25px 30px 0 30px;
+     	.git-start{
+    		p{
+    			width: 45%;
+    			font-size: 14px;
+    			padding: 18px 0 18px 40px;
+    		}
+            .main-btn{
+                margin: 26px 27px;
+            }
+    	}
+    }
+
+    .me-row1{
+    	.btn{
+    		.adj{
+    			margin-top: 10px;
+    		}
+            li{
+                padding: 13px 24px;
+            }
+    	}
+    	margin-top: 20px;
+    	.jQ,
+    	.reAct{
+    		padding-right: 27px;
+    	}
+    	.heading{
+    		font-size: 21px;
+    	}
+    	.sub-heading{
+    		font-size: 15px;
+    	}
+
+        .reAct,
+        .Vue{
+            margin-top: 20px;
+        }
+    }
+
+    .enq{
+    	.ecom{
+    		margin-right: 27px;
+    	}
+    	.heading{
+    		font-size: 22px;
+    	}
+        .enq-btn{
+        	li{
+    			padding: 17px 25px;
+    		}
+        }
+    }
+
+    .sponsers{
+    	.company-list{
+            text-align: left;
+    		li{
+                text-align: center;
+    			width:30%;
+    			padding:0 9px;
+    		}
+    	}
+    }
+
+    .news{
+    	.news-category{
+    	 	.news-row {
+    	 		.al-img{
+    	 			width: 100%;
+    	 			.news-img{
+    	 			}
+                    .info{
+                        font-size: 16px;
+                    }
+    	 		}
+    	 	}
+    	 } 
+    }
+
+    .resourse{
+        .re-img {
+            width: 48%;
+            &.w100 {
+                width: 100%;
+            }
+        }
+        .reso-tuto{
+            .space{
+                padding-right: 20px;
+            }
+        }
+    }
+
+    .about{
+        .con-btn{
+            .btn1{
+                margin:0 10px;
+            }
+        }
+    }
+
+    .information{
+        text-align: center;
+        .container{
+            display: inline-block;
+            text-align: left;
+            .usefull{
+                padding-left: 15px;
+            }
+                .comm{
+                    margin-left: 0;
+                }
+        }
+    }
+}
