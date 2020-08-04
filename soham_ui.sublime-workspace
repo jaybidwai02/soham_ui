@@ -68,7 +68,7 @@
 			"file": "src/scss/home_mob.scss",
 			"settings":
 			{
-				"buffer_size": 1060,
+				"buffer_size": 1130,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -261,15 +261,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1060,
+						"buffer_size": 1130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								183,
-								183
+								287,
+								287
 							]
 						],
 						"settings":
@@ -279,7 +279,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 159.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
