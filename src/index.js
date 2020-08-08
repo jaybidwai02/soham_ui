@@ -1,3 +1,7 @@
-import "../main.scss"
-import { fun1 } from "./js/home.js"
 
+
+function greet(){
+	console.log('something')
+}
+
+greet();
