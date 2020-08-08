@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"fu",
+				"function\tabc"
+			],
+			[
+				"do",
+				"document.getElementById('soham\tabc"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"re",
+				"returnVal\tabc"
+			],
+			[
+				"f",
+				"functions\tabc"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"console",
+				"console.log\tabc"
+			],
+			[
+				"i",
+				"innerHTML\tabc"
+			],
+			[
+				"va",
+				"var\tabc"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"text",
+				"text-align\t(home.scss)"
+			],
+			[
+				"tex",
+				"text-align\tabc"
+			],
+			[
+				"menu",
+				"menu-btn\t(index.html)"
+			],
+			[
+				"STAR",
+				"STARTED"
+			],
+			[
+				"use",
+				"usefull"
+			],
+			[
+				"btn",
+				"btn1"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"dv",
+				"div\tTag"
+			],
+			[
 				"fun",
 				"fun1"
 			],
@@ -19,6 +91,34 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 4236,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Soham</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"src/app.css\">\n\t<script type=\"text/javascript\" src=\".//main.js\"></script>\n</head>\n<body>\t\n     <h1>setinterval ans setTimeOut</h1>\n     <div class=\"container\">\n     \tthis is a container\n     </div>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 365,
+			"file_write_time": 132413389132262207,
+			"settings":
+			{
+				"buffer_size": 344,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scss/home.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -31,6 +131,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"mater",
 				"Material Theme: Configuration"
@@ -68,12 +176,23 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Jay/Languages/soham/soham_ui",
-		"/D/Jay/Languages/soham/soham_ui/src",
-		"/D/Jay/Languages/soham/soham_ui/src/js"
+		"/E/study1/soham_ui",
+		"/E/study1/soham_ui/src",
+		"/E/study1/soham_ui/src/scss"
 	],
 	"file_history":
 	[
+		"/E/study1/soham_ui/src/index.js",
+		"/E/study1/soham_ui/Test.html",
+		"/E/study1/soham_ui/index.html",
+		"/E/study1/soham_ui/src/scss/home.scss",
+		"/E/study1/soham_ui/src/scss/home_mob.scss",
+		"/E/study1/soham_ui/src/scss/home_tab.scss",
+		"/E/study1/soham_ui/src/scss/veriable.scss",
+		"/E/study1/soham_ui/src/scss/gloab.scss",
+		"/E/study1/soham_ui/main.scss",
+		"/E/study1/soham_ui/node_modules/browserify-rsa/node_modules/bn.js/lib/bn.js",
+		"/E/study1/points",
 		"/D/Jay/Languages/soham/soham_ui/sublime_package",
 		"/D/Jay/Languages/soham/soham_ui/src/js/home.js",
 		"/D/Jay/Languages/soham/soham_ui/src/js/demo.js",
@@ -97,7 +216,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 45.0
 	},
 	"find_in_files":
 	{
@@ -111,6 +230,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\";"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -130,16 +250,100 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4227,
+								4227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6537.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/scss/home.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 45.0
 	},
 	"input":
 	{
-		"height": 45.0
+		"height": 60.0
 	},
 	"layout":
 	{
@@ -172,7 +376,7 @@
 	"project": "soham_ui.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 86.0
 	},
 	"save_all_on_build": true,
 	"select_file":
