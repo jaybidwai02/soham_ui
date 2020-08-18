@@ -1,7 +1,7 @@
-
+console.log('sam')
 
 function greet(){
-	console.log('something')
+	console.log('all of u')
 }
 
 greet();

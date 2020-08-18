@@ -95,7 +95,7 @@
 			"file": "src/index.js",
 			"settings":
 			{
-				"buffer_size": 57,
+				"buffer_size": 74,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -104,16 +104,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 346,
+				"buffer_size": 345,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/scss/home.scss",
-			"settings":
-			{
-				"buffer_size": 125,
 				"line_ending": "Windows"
 			}
 		}
@@ -181,15 +173,15 @@
 	],
 	"file_history":
 	[
+		"/E/study1/soham_ui/main.scss",
+		"/E/study1/soham_ui/src/scss/home.scss",
 		"/E/study1/soham_ui/src/index.js",
 		"/E/study1/soham_ui/Test.html",
 		"/E/study1/soham_ui/index.html",
-		"/E/study1/soham_ui/src/scss/home.scss",
 		"/E/study1/soham_ui/src/scss/home_mob.scss",
 		"/E/study1/soham_ui/src/scss/home_tab.scss",
 		"/E/study1/soham_ui/src/scss/veriable.scss",
 		"/E/study1/soham_ui/src/scss/gloab.scss",
-		"/E/study1/soham_ui/main.scss",
 		"/E/study1/soham_ui/node_modules/browserify-rsa/node_modules/bn.js/lib/bn.js",
 		"/E/study1/points",
 		"/D/Jay/Languages/soham/soham_ui/sublime_package",
@@ -247,7 +239,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -256,15 +248,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 57,
+						"buffer_size": 74,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								2
+								18,
+								18
 							]
 						],
 						"settings":
@@ -275,7 +267,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -284,15 +276,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 346,
+						"buffer_size": 345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								112,
-								112
+								137,
+								137
 							]
 						],
 						"settings":
@@ -303,35 +295,7 @@
 						"translation.y": 23.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/scss/home.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
