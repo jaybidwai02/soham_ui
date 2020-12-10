@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>       
+<body>
+	<script type="text/javascript">
+    //1. Function
+    /*
+			function student(Name, Roll_no, College_pin, Address) {
+				document.write("Name: " + Name + "<br>");
+				document.write("Roll_no: " + Roll_no + "<br>");
+				document.write("College_pin: " + College_pin + "<br>");
+				document.write("Address: " + Address + "<br>");
+				document.write("<br>");
+			}student('Soham', 45, 201502, 'Near SDI');
+			 student('Sam', 35, 201505, 'Near SVI');
+			 student('Jack', 45, 201506, 'Near SJI');  */
+
+    //2. Anonymous Function
+    /*
+    var dis = function(Name, Roll_no, College_pin, Address){
+    	document.write("Name: " + Name + "<br>" + "Roll_no: " + Roll_no + "<br>" + 
+    					"College_pin: " + College_pin + "<br>" + "Address: " + Address + "<br>" +
+    					 "<br>");
+    }
+    dis('Soham', 45, 201502, 'Near SDI');   
+    dis('Soham', 45, 201503, 'Near SBI');    */
+
+    //3. Constructor
+    /*
+    function student(identity, serial_no, College_pin, location) { 
+    	this.Name = identity,
+    	this.Roll_no = serial_no,
+    	this.College_pin = College_pin,
+    	this.address = location,
+    	this.info = function(){
+    		document.write('Name: ' + this.Name + '<br>' + 'Roll No: ' + this.Roll_no + '<br>' + 'College Pin: ' + this.College_pin  + '<br>' + 'Address: ' + this.address + '<br>' + '<br>');
+    	}
+    }
+    var soham = new student('Soham', 45, 201502, 'Near SDI');
+    soham.info();
+
+    var sam = new student('Sam', 47, 201503, 'Near SBI');
+    sam.info();    */
+
+    //4. Factory Function
+    /*
+	function student(identity, college_no, class_no, location) {
+	 	return{
+	 		     Name : identity,
+	 		     College_pin : college_no,
+	 		     Roll_no : class_no,
+	 		     Address : location,
+	 		     info : function() {
+	 		     }
+	 	}
+	 } 
+	 var sam = student('Sam', 201505, 48, 'Near SBI');
+	 document.write('Name: ' + sam.Name + '<br>' + 'College_pin: ' + sam.College_pin + '<br>' + 'Roll_no: ' + sam.Roll_no + '<br>' +  'Address: ' +  sam.Address + '<br>' + '<br>'); */
+
+	 
+	 
+	</script>
+</body>
+</html>

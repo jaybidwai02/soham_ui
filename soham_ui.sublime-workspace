@@ -4,8 +4,96 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"Co",
+				"College_pin"
+			],
+			[
+				"docu",
+				"document.write(\"<br"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"s",
+				"serial_no"
+			],
+			[
+				"ti",
+				"this"
+			],
+			[
+				"C",
+				"College_pin"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"docum",
+				"document.write"
+			],
+			[
+				"typ",
+				"typeof〔keyword〕"
+			],
+			[
 				"fu",
-				"function\tabc"
+				"function"
+			],
+			[
+				"model",
+				"model_name〔argument〕"
+			],
+			[
+				"windo",
+				"window.alert(\"Hi"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"my",
+				"mysam"
+			],
+			[
+				"show",
+				"show"
+			],
+			[
+				"br",
+				"br>'+'soham"
+			],
+			[
+				"j",
+				"j_bid"
+			],
+			[
+				"c",
+				"const"
+			],
+			[
+				"disp",
+				"display〔function〕"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"document",
+				"document.write(\"hello"
+			],
+			[
+				"docume",
+				"document.write('bidwai"
 			],
 			[
 				"do",
@@ -14,10 +102,6 @@
 			[
 				"for",
 				"for\tfor (…) {…} (Improved Native For-Loop)"
-			],
-			[
-				"re",
-				"returnVal\tabc"
 			],
 			[
 				"f",
@@ -76,10 +160,6 @@
 				"div\tTag"
 			],
 			[
-				"fun",
-				"fun1"
-			],
-			[
 				"ch",
 				"chk"
 			],
@@ -92,30 +172,26 @@
 	"buffers":
 	[
 		{
-			"file": "src/index.js",
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title></title>\n\t<script type=\"\\HTML\\CSS\\test.css\"></script>\n</head>\n<body>\n\t<div class=\"prac\">\n\t<h1>Card title</h1>\n\t<p>Some Quick Example text to build on a card title and make up the bilk of the card's content</p>\n\t<button>Go Somewhere</button>\n\t</div>\n</body>\n</html>",
+			"file": "/C/Users/SB07/Desktop/HTML/prac.html",
+			"file_size": 315,
+			"file_write_time": 132520716579830978,
 			"settings":
 			{
-				"buffer_size": 4236,
+				"buffer_size": 302,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Soham</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"src/app.css\">\n\t<script type=\"text/javascript\" src=\".//main.js\"></script>\n</head>\n<body>\t\n     <h1>setinterval ans setTimeOut</h1>\n     <div class=\"container\">\n     \tthis is a container\n     </div>\n</body>\n</html>",
-			"file": "index.html",
-			"file_size": 365,
-			"file_write_time": 132413389132262207,
+			"contents": "div{\n\twidth: 100px;\n}\n.prac p {\n\twidth: 30%;\n}\n\n.prac button{\n\tbackground-color: blue;\n\tpadding: 10px;\n}",
+			"file": "/C/Users/SB07/Desktop/HTML/CSS/test.css",
+			"file_size": 114,
+			"file_write_time": 132520716291921882,
 			"settings":
 			{
-				"buffer_size": 344,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/scss/home.scss",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 104,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -176,12 +252,19 @@
 	},
 	"expanded_folders":
 	[
-		"/E/study1/soham_ui",
-		"/E/study1/soham_ui/src",
-		"/E/study1/soham_ui/src/scss"
+		"/F/study1/soham_ui",
+		"/F/study1/soham_ui/src",
+		"/F/study1/soham_ui/src/js"
 	],
 	"file_history":
 	[
+		"/F/study1/soham_ui/src/js topic/constructor.html",
+		"/F/study1/soham_ui/src/js topic/private_prop_method.html",
+		"/F/study1/soham_ui/src/index.js",
+		"/F/study1/soham_ui/src/js topic/practice.html",
+		"/F/study1/soham_ui/src/js topic/factory.html",
+		"/F/study1/soham_ui/src/js topic/for_in.html",
+		"/F/study1/soham_ui/index.html",
 		"/E/study1/soham_ui/src/index.js",
 		"/E/study1/soham_ui/Test.html",
 		"/E/study1/soham_ui/index.html",
@@ -216,7 +299,7 @@
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -230,6 +313,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"document",
 			"\";"
 		],
 		"highlight": true,
@@ -248,84 +332,31 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/index.js",
+					"file": "/C/Users/SB07/Desktop/HTML/prac.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4236,
+						"buffer_size": 302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4227,
-								4227
+								106,
+								106
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6537.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								132,
-								132
-							]
-						],
-						"settings":
-						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/scss/home.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -333,13 +364,43 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/SB07/Desktop/HTML/CSS/test.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 45.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -372,11 +433,15 @@
 	{
 		"height": 0.0
 	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "soham_ui.sublime-project",
 	"replace":
 	{
-		"height": 86.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

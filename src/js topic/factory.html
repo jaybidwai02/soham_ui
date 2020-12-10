@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <script type="text/javascript">
+    	//factory function without parameter
+
+        function mobile() {
+        	return{
+                          	model: 'Galaxy',
+                          	MRP: 12000, 
+                          	Price: function(){
+                          		return "Price Rs.";
+                          }
+            }    
+        }
+        var samsung = mobile();
+        document.write(samsung.model + " " + samsung.Price() + samsung.MRP);
+        var lg = mobile();
+        document.write("<br>" + lg.model + " " + lg.Price() + lg.MRP);   
+                //factory function with parameter
+  /*
+     function mobile(model_name, MRP) {
+      		return{
+      			model : model_name,
+                price : MRP,
+      			tag : function(){
+      				return "Price is :"
+      			}
+      		}
+      }
+      var samsung = mobile('galaxy', 12000);
+      document.write(samsung.model + " " + samsung.tag() + " " + samsung.price + "<br>");
+      var nokia = mobile(3310, 15000);
+      document.write(nokia.model + " " + nokia.tag() + " " + nokia.price);  
+  */
+    </script>
+</body>
+</html> 

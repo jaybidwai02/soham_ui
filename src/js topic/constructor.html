@@ -1,0 +1,52 @@
+<!DOCTYPE html>   
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+   <script type="text/javascript">
+   	       //constructor wtihout parameter
+ /*  	    	 
+ 				function mobile() {
+   	    	 	this.model = 'galaxy',
+   	    	   this.price = function () {
+   	    	    	document.write(this.model + " " + "Price is: 3000");
+   	    	    }
+   	    	 }
+   	    	var samsung = new mobile();
+   	    	samsung.price(); */
+
+   	      //constructor with parameter
+
+   	      function mobile(model_no, MRP) {
+   	        	  this.model = model_no,
+   	        	  this.price = MRP,
+   	        	  this.info = function(){
+   	        		   document.write(this.model + " Price is: " + this.price + "<br>");
+   	        	}
+   	      }   
+   	        /* in constructor you have to call method using a newly created OBJECT i.e samsung created as a new object
+   	           with the help of this you can call method i.e info defined above.*/
+              /*syntax
+
+              var obj_name = new(keyword) fun_name(); */
+   	        var samsung = new mobile('Note10', 12000);
+   	        samsung.info();
+              
+              /*
+   	        if ('price' in samsung){
+   	        	document.write("Yes");
+   	        }else{
+   	        	document.write('No');
+   	        } */
+
+   	      if (typeof samsung.price !== 'undefined'){
+   	        	  document.write('Exist');
+   	      }
+   	      else
+   	      {
+   	        	  document.write(' DOES'+"'"+'T'+'exist');
+   	      } 
+   </script>
+</body>
+   </html>

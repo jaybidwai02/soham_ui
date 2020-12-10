@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var Mobile = function (model_no, sprice) {
+			this.model = model_no,
+			this.price = 3000,
+			this.sp = sprice,
+			this.selling_price = function () {
+				return(
+					this.price + this.sp);
+			}
+			this.info = function () {
+				document.write("Model No: " + this.model + "<br>" +"Price: " + this.selling_price());
+			}
+		}
+		var samsung = new Mobile('galaxy', 2000);
+		samsung.info();
+	</script>
+</body>
+</html>

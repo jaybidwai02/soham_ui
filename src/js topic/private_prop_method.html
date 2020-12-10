@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		// access private prop. from outside function
+			var Mobile = function (model_no, sprice) {
+			this.model = model_no;
+			var price = 3000;
+			this.sp = sprice;
+			this.selling_price = function () {
+				return(price);
+			}
+			this.info = function () {
+				document.write("Model No: " + this.model + "<br>" +"Price: " + this.selling_price());
+			}
+		}
+		var samsung = new Mobile('galaxy', 2000);
+		samsung.info();
+		//for accessing private prop. we hvae to return that prop. in method [in return statement]
+		document.write("<br>" + samsung.selling_price());
+	</script>
+</body>
+</html>

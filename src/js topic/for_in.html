@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <script type="text/javascript">
+    	function mobile() {
+    		this.model = 'galaxy',
+    		this.Ram = '4GB',
+    		this.price = function(){
+    			document.write(this.model + " Ram is: " + this.Ram + "<br>");
+    		}
+    	}
+    	var samsung = new mobile();
+    	samsung.price();
+    	// if you want to check which prop. and method in perticular function so we use 'for in' loop
+    	for(var pass in samsung){
+    		/* and if you want to show only prop. with prop. names in function other than method so add 'if statement' in 'for in' loop
+               and add new obj_name into [ ] */
+    		if(typeof samsung[pass] !== 'function')
+    		{
+     		  document.write(pass + " " + samsung[pass] + "<br>");
+    		}
+    	}
+    </script>
+</body>
+</html>
