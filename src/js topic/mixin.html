@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var eating = {
+			eat: function(){
+				return "i can eat <br>"
+			}
+		}
+
+		var talking = {
+			talk: function(){
+				return "i can talk <br>"
+			}
+		}
+
+		var walking = {
+			walk: function(){
+				return "i can walk <br>"
+			}
+		}
+
+		var rahul = Object.assign({}, eating, walking, talking);
+		document.write(rahul.eat());
+		document.write(rahul.talk());
+		document.write(rahul.walk());
+		
+		// assign a perticular prop. to object.
+
+		var ROBOCOP = Object.assign({}, walking, talking);
+		document.write("ROBOCOP say: " + ROBOCOP.walk());
+		document.write("ROBOCOP say: " + ROBOCOP.talk());
+	</script>
+</body>
+</html>

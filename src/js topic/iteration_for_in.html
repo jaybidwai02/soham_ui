@@ -1,0 +1,38 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var Mobile = function (model_no) {
+			//instance members
+			this.model = model_no;
+			this.price = 30000;
+			this.info = function () {
+				     document.write("<br>" + this.model + "<br>" + this.price + "<br>" + this.color + "<br>");
+				}
+			}
+		var samsung = new Mobile('Galaxy');
+		var nokia = new Mobile(3310);
+	    // Prototype member 		
+		Mobile.prototype.color = 'White';
+		// Display prototype prop. syntax are as follows
+		/*
+		for( var variable_name in obj_name){
+			document.write(variable_name);
+		}	
+		*/
+		for (var soham in samsung){
+			document.write(soham + " ");
+		}
+		// document.write(Object.keys(samsung) + "<br>");
+		document.write(samsung.info());
+		document.write(nokia.info());
+		// console.log(samsung);
+		// console.log(nokia);
+		// document.write(samsung.color);
+		// document.write(nokia.color);
+		</script>
+	</body>
+	</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+     <script type="text/javascript">
+     	var college = function() {
+     		this.college_name = "BNCOE",
+     		this.college_no = 415;
+     	}
+     	college.prototype.getinfo = function() {
+     		return "College_name: " + this.college_name + "<br>" + "College_no: " + this.college_no + "<br>" + "Student_name: " +this.student_name + "<br>" + "Student_no: " +this.student_no;
+
+     	}
+
+     	var sam = function(name, no) {
+     		this.student_name = name,
+     		this.student_no = no,
+     		college.call(this);
+     	}
+        sam.prototype = Object.create(college.prototype);
+     	sam.prototype.constructor = sam;
+
+     	var sam_about = new sam("Soham", 45);
+     	document.write(sam_about.getinfo())	;
+     </script>
+</body>
+</html>

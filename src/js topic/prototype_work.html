@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function student() {
+			// this.name = 'sam',
+			// this.pin = 20124,
+			// this.info = function(){
+			// document.write(this.name + "<br>" + this.pin + " " + this.college_pin);
+		// }	
+	}
+		var sam = new student();
+		// following both college pin statement is correct. 
+		student.prototype.college_pin = 21056;
+		// sam.__proto__.college_pin = 21054;
+		// document.write(sam.info());
+		console.log(student.prototype);
+		console.log(sam.__proto__);
+		      						/* IMPORTANT */
+		// following statement shows the above two statement are same   VERIFY
+		console.log(student.prototype === sam.__proto__);
+		console.log(student === sam.__proto__.constructor);
+		console.log(student === student.prototype.constructor);
+		// console.log(Object.getPrototypeOf(sam.pin));
+		// console.log(Object.getPrototypeOf(Object.prototype)); 
+	</script>
+</body>
+</html>

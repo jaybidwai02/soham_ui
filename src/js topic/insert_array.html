@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function insert(pos_a, inst_b) {
+				var s = [10, 25, 1, 36, 8];
+				for(var i=s.length-1; i>pos_a; i--)
+				{
+					s[i]=s[i-1];
+				}
+				s[pos_a]=inst_b;
+				return s;
+				// for(var i=0; i<s.length-1; i++){
+				// 		if(s[i]==index_a){
+				// 		   s[i]=inst_b;
+				// 		   return s;
+				// 		}
+				// 		else{	
+				// 		s[i]=s[i+1];
+				// 		}
+				// }
+				// return s;
+			}	
+			console.log(insert(2, 50));
+	</script>
+</body>
+</html>	

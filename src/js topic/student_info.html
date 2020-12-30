@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function student_info() {
+			var a = [
+			{name:'soham',
+			 college:'BNCOE',
+			 pin:2014016},
+			{name:'Ankit',
+			 college:'BNCOE',
+			 pin:2014012},
+			{name:'Sam',
+			 college:'BNCOE',
+			 pin:2014014},
+			{name:'Ram',
+			 college:'BNCOE',
+			 pin:2014010}];
+			 for(var i = 0; i<a.length-1; i++){
+			 	for(var j = 0; j<a.length-1-i; j++){
+			 		if(a[j].pin>a[j+1].pin)
+			 		{
+			 			var k = a[j+1];
+			 			a[j+1] = a[j];
+			 			a[j]= k;
+			 		}
+			 	}
+			 }
+			 return a;
+		}
+		console.log(student_info());
+	</script>
+</body>
+</html>

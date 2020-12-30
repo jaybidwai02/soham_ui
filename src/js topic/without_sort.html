@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		function sorting() {
+			var a = [10, 25, 1, 65, 9, 6];
+			// this statement shows the function is pure function or not
+			// pure function means declared array is can not be mutted(change) 
+			// const f = a.slice();
+			for(var b = 0; b<a.length-1; b++){
+				for(var c = 0; c<a.length-1-b; c++){
+					// this is for a decending order
+					if( a[c] < a[c+1] )
+					{
+						const e = a[c+1];
+						a[c+1] = a[c];
+						a[c] = e;
+						// short hand statement for above three line are as follow.
+						// [a[c+1], a[c]] = [a[c], a[c+1]];
+					}	
+					// if u wawnt acending order code are as follows
+					// if( a[c] > a[c+1] )
+					// {
+					// 	const e = a[c];
+					// 	a[c] = a[c+1];
+					// 	a[c+1] = e; 
+						// short hand statement for above three line are as follow.
+						// [a[c] ,a[c+1]] = [a[c+1], a[c]];	
+					// }
+				}
+			}
+		return a;
+		}	
+		console.log(sorting());
+		// console.log(a);
+		// 	for(var b = 0; b<a.length; b++){
+		// 		for(var c = b; c<a.length; c++){
+		// 			if (a < b) {
+		// 				d = b;
+		// 				b = c;
+		// 				c = d;
+		// 			}
+		// 		}
+		// 	}
+		// return d;
+		// }
+		// console.log(d);
+	</script>
+</body>
+</html>

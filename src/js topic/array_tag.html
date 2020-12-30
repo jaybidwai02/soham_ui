@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button onclick="my()">Try it</button>
+	<script type="text/javascript">
+	   // another way to create array syntax are as follows
+	   // var array_name = new Array(..);
+	   /* var cars = new Array(10, 25, 1 ,5, 56);
+	   for(var a = 0; a<cars.length; a++){
+	   			console.log(cars[a]);
+	   } */
+
+	    	// Access array with the help of array INDEX
+		// var cars = new Array(10, 25, 1 ,5, 56);
+		// var a = cars[2]
+		// console.log(a);	
+
+			// access element by index value A/C to length
+		// var a = cars.length-3;
+		// console.log(cars[a]);
+
+	   // for(var a = 0; a<cars.length; a++){
+	   // 			console.log(cars[3]);
+	   // }	   
+	   // replace old element with new one are as follows.
+	   	  //  			cars[3]=1000;
+	   			// console.log(cars);
+	   	
+	   	// insert and delete element with th help of splice. 
+	   	// cars.splice(0, 1, 'sam', 'rohit');
+	   	// console.log(cars);
+
+	   	// var cars = new Array(10, 25, 1 ,5, 56);
+
+	   	// 	[Loops over an Array]
+	   	// Display the array element with respective index number are as follows
+	   	// cars.forEach(function(item, index) {
+	   	// 	console.log(item, index);
+	   	// })
+
+		// var cars = new Array(10, 25, 1 ,5, 56);	
+		
+			// [Add element at the end of an array]
+		//  for adding element to an array use () brackets insted of [] brackets
+		//  cars.push(51000);
+		// console.log(cars);
+
+		// var cars = new Array(10, 25, 1 ,5, 56);
+
+			// [Remove last element of the array]
+		// here pop is used for remov the element 
+		// remove element are as follows here 56 is removed.
+		// var last = cars.pop();
+		// console.log(cars);
+
+		// var cars = new Array(10, 25, 1 ,5, 56);
+
+		    // [Remove an item from the beginning of an array]
+		// Here shift is used for remove first element of an array
+		// var first = cars.shift();
+		// console.log(cars);
+
+		// var cars = new Array(25, 1 ,5, 56);
+
+			// [Add element at the start of the array]
+		// Here unshift is used for add element at beginning of the element
+		// var newLength = cars.unshift(10000);
+		// console.log(cars);
+
+		// var cars = new Array(10, 25, 1 ,5, 56);
+
+			// [Find index of perticular element of an array]
+		// Here indexOf is used for find index of perticular element
+		// var a = cars.indexOf(1);
+		// console.log(a);
+
+
+		// var cars = new Array(10, 25, 1 ,5, 56);
+			// [remove item with the  help of index number]
+		// var pos = 1;	
+		// var n   = 2;
+			// here 'pos' defines starting position of remove element of array
+			// here 'n' defines the number of element to removed of an array(including pos element)
+ 		// var sam = cars.splice(pos, n);
+ 			// following statement shows the array after removing element
+ 		// console.log(cars);
+ 			// following statement shows the removed element of array
+		// console.log(sam);
+
+
+		// var cars = new Array(10, 25, 1 ,5, 56);
+			// Copy an array
+			// here pos deinfes the starting position 
+		// var pos = 1;
+			// here n deinfes the ending position
+		// var n = 4;
+		// var sam = cars.slice(pos, n);
+		// console.log(sam);
+
+
+		// function year(month) {
+		// 	this.month = month;
+		// }
+
+		// var month1 = new year('July');
+
+		// year.prototype.toString = function yearToString() {
+		// 	return `${this.month}`;
+		// };
+
+		// console.log(month1.toString());
+
+
+		var cars = new Array(10, 25, 1 ,5, 56);
+
+		console.log(cars['2'] != cars['02']);
+
+				//Relation-ship between length and numerical properties
+		var fruits = [];
+		fruits.push('Banana', 'Apple', 'Oranges');
+		console.log(fruits.length); 
+
+		fruits.pop();
+		console.log(fruits);
+		fruits.unshift();
+		console.log(fruits);
+			// find matching element and string or letter
+			function my() {
+		var sam = 'on top of THe world';
+		
+		// var dog = /[THe]/g;
+		// var fan =sam.match(dog);
+
+		// search method returns the position of the match string in 
+		var fan = sam.search(/world/i);
+		console.log(fan);
+
+		// following statement is used for replace a string with a new strig. first is the old string ans second is a new string that we have to add in a given text
+		var fan = sam.replace(/wOrld/i, 'building');
+		console.log(fan);
+		}
+				// ARRAY CONSTRUCTOR
+		// following statement is used for creating new array [constructor] with length also specify.
+		var sam = new Array(5, 10, 25, 35);
+		console.log(sam.length);
+		console.log(sam[0]);
+
+		var sandy = new Array(4, 2, 5, 6);
+		if(sandy.length > 3){
+			sandy.length = 3;
+		}
+		console.log(sandy);
+	</script>
+</body>
+</html>

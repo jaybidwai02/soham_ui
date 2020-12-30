@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function element_find(b) {
+			var a = [10, 5, 20, 7, 65, 6];
+			for(var i=0; i<a.length; i++){
+				if(b == a[i]){
+					var v = b;
+					console.log(i);
+					console.log(a[i]);
+	//   if you want to execute the loop and return the value use are as follows 
+					return i;
+				}
+				// else{
+				// 	// document.write("NA");
+				// }
+			}
+
+		// document.write("NA");	
+		 return 'NA';		
+		}
+		document.write(element_find(65));
+	</script>
+</body>
+</html>

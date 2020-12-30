@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		class Father {
+			show() {
+				return "Super class <br>"
+			}
+		}
+
+		class son extends Father{
+			show(){
+				return "method overriding is done"
+			}
+		} 
+		var s = new son();
+		document.write(s.show());
+	</script>
+</body>
+</html>

@@ -27,11 +27,11 @@ x= x+10;
 var $, carName = ' swift', age = 25;    //one statement, many variables.
 document.write(age,carName,$+ "<br>");          //re-declaration ( $ ) is used here.
 
-soham_bidwai = '5' + 6 + 7;
-//document.write(soham_bidwai + "<br>");
+soham_bidwai = 5 + 6 + '9';
+document.write(soham_bidwai + "<br>");
 
 var ans = true;                         // Boolean value.
-//document.write(ans);
+// document.write(ans + "<br>");
 
 var abc = true;
 console.log(abc
@@ -89,10 +89,10 @@ document.write(s + "<br>");
 
                         /* #24 Getting input from user prompt() method*/
 
-//var a = prompt("Enter Value: ", "123456");
-//document.write(a);
+var a = prompt("Enter Value: ", "123456");
+document.write(a);
 //var a = prompt("Enter your value: ", "123456");
-//window.alert("Hi");
+window.alert("Hi");
                        /* #27 If else statement */
 /*var a = 10;
 if(a == 10)
@@ -170,7 +170,7 @@ while(i<5)
         document.write(i + "Soham" + '<br>');
 }   */
                             /* #33 Nestedd while loop*/
-/* var x =0;
+var x =0;
 while(x<3)
 {
     document.write("Outer loop" + x);
@@ -183,7 +183,7 @@ while(x<3)
         y++;
         document.write("<br>");
     }
-} */
+} 
                                 /* #34 Do while loop*/
 /*var o =0;
 do
@@ -211,9 +211,9 @@ function myfunction(a, b) {
 var j = myfunction(4, 3);
 document.write("<br>" + "soham " + myfunction(4,3) + " Bidwai");
         //function can be used as a variable value [myfunction()] 
-function myfunction(a, b) {
-     return a + b;
-}
+// function myfunction(a, b) {
+//      return a + b;
+// }
 
 function display(a, b=70)
 {
@@ -459,3 +459,4 @@ var doc = { Ashu:500, Ankit:200, total:function(){return(doc.Ashu + doc.Ankit)}}
 document.write("<br>" + doc.total());
 delete doc.Ankit;
 document.write("<br>" + doc.total());
+// https://www.youtube.com/watch?v=HSZA_XyrPAI

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function sort_by_name(s) {
+			var a = [
+			{name:'sam',
+			 college:'BNCOE',
+			 pin:2014016},
+			{name:'Ankit',
+			 college:'BNCOE',
+			 pin:2014012},
+			{name:'Ram',
+			 college:'BNCOE',
+			 pin:2014014},
+			{name:'Soham',
+			 college:'BNCOE',
+			 pin:2014010}];
+			 // a.splice(1, 2, 'Sam', 'ddon');
+			 // console.log(a);
+			 for(var i = 0; i<a.length; i++){
+			 	if(s == a[i].name){
+			 		console.log(i);
+			 		return a[i];
+			 	}
+			 }
+			 return 'NA';
+		}
+		console.log(sort_by_name('Soham'));
+	</script>
+</body>
+</html>

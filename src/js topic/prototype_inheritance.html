@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	// NOTE = In parent class you cannot access(inherite) child class prop.
+
+		var Student = function() {
+			this.a = 15;
+		}
+
+			Student.prototype.d = 20; 	
+			var w = new Student();
+		
+		var Sam = function() {
+
+	//   Following statement is used for call the parent class prop. in child class. 
+		
+			Student.call(this);
+			this.b = 35; 
+		}
+	/* 	 Following statement (first line[1]) is used for accesing parent class prototype object prop. in child class and second line [2] is reset the constructor of child class */
+
+/* 1 */		Sam.prototype = Object.create(Student.prototype); 
+/* 2 */		Sam.prototype.constructor = Sam;
+			Sam.prototype.f = 50;
+			var s = new Sam();
+
+		//access through child class object [s]
+
+				document.write("a = " + s.a + "<br>");     
+				document.write("b = " + s.b + "<br>");     
+				document.write("d = " + s.d + "<br>");     
+				document.write("f = " + s.f + "<br>");
+
+			// multi-level inheritance
+
+				var Soham = function() {
+		
+			//   Following statement is used for call the parent class prop. in child class. 
+
+					Sam.call(this);
+					this.v = 500;
+				}
+
+			/* 	 Following statement (first line[1]) is used for accesing parent class prototype object prop. in child class and second line [2] is reset the constructor of child class */
+
+		/* 1 */		Soham.prototype = Object.create(Sam.prototype);
+        /* 2 */		Soham.prototype.constructor = Soham;
+        
+        			var e = new Soham();
+        				document.write("F = " + e.d + "<br>");
+						// overwrite d from child class prototype object.
+						Sam.prototype.d = 1000;
+
+						document.write("d = " + s.d + "<br>");
+					//access through parent class object [w]
+
+						/*
+						document.write("a = " + w.a + "<br>");     //parent class prop.
+						document.write("b = " + w.b + "<br>");     //child class prop.
+						document.write("d = " + w.d + "<br>");     //parent class prop.
+						document.write("f = " + w.f + "<br>");     //child class prop.    */
+	</script>
+</body>
+</html>

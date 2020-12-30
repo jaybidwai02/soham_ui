@@ -4,6 +4,154 @@
 		"selected_items":
 		[
 			[
+				"sa",
+				"sandy"
+			],
+			[
+				"Array",
+				"Array(25"
+			],
+			[
+				"A",
+				"Array"
+			],
+			[
+				"fr",
+				"fruits"
+			],
+			[
+				"mo",
+				"month1"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"new",
+				"newLength"
+			],
+			[
+				"i",
+				"item"
+			],
+			[
+				"in",
+				"insr_c"
+			],
+			[
+				"cons",
+				"console.log"
+			],
+			[
+				"con",
+				"console.log"
+			],
+			[
+				"cn",
+				"console.log"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"ma",
+				"maximum"
+			],
+			[
+				"te",
+				"test1"
+			],
+			[
+				"so",
+				"sorting"
+			],
+			[
+				"coll",
+				"college_no"
+			],
+			[
+				"colle",
+				"college_name"
+			],
+			[
+				"student",
+				"student_no"
+			],
+			[
+				"get",
+				"getinfo"
+			],
+			[
+				"sam",
+				"sam_about"
+			],
+			[
+				"st",
+				"student_no"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"background-",
+				"background-color\tproperty"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"co",
+				"college_pin"
+			],
+			[
+				"Object",
+				"Object.getPrototypeOf"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"border-",
+				"border-radius\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
 				"p",
 				"p\tTag"
 			],
@@ -14,10 +162,6 @@
 			[
 				"docu",
 				"document.write(\"<br"
-			],
-			[
-				"fun",
-				"fun\tFunction"
 			],
 			[
 				"s",
@@ -32,20 +176,12 @@
 				"College_pin"
 			],
 			[
-				"pr",
-				"price"
-			],
-			[
 				"docum",
 				"document.write"
 			],
 			[
 				"typ",
 				"typeof〔keyword〕"
-			],
-			[
-				"fu",
-				"function"
 			],
 			[
 				"model",
@@ -84,10 +220,6 @@
 				"display〔function〕"
 			],
 			[
-				"con",
-				"console"
-			],
-			[
 				"document",
 				"document.write(\"hello"
 			],
@@ -108,28 +240,12 @@
 				"functions\tabc"
 			],
 			[
-				"l",
-				"length"
-			],
-			[
 				"console",
 				"console.log\tabc"
 			],
 			[
-				"i",
-				"innerHTML\tabc"
-			],
-			[
 				"va",
 				"var\tabc"
-			],
-			[
-				"in",
-				"input\tTag"
-			],
-			[
-				"text",
-				"text-align\t(home.scss)"
 			],
 			[
 				"tex",
@@ -172,25 +288,117 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title></title>\n\t<script type=\"\\HTML\\CSS\\test.css\"></script>\n</head>\n<body>\n\t<div class=\"prac\">\n\t<h1>Card title</h1>\n\t<p>Some Quick Example text to build on a card title and make up the bilk of the card's content</p>\n\t<button>Go Somewhere</button>\n\t</div>\n</body>\n</html>",
-			"file": "/C/Users/SB07/Desktop/HTML/prac.html",
-			"file_size": 315,
-			"file_write_time": 132520716579830978,
+			"file": "src/index.js",
 			"settings":
 			{
-				"buffer_size": 302,
+				"buffer_size": 9890,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "div{\n\twidth: 100px;\n}\n.prac p {\n\twidth: 30%;\n}\n\n.prac button{\n\tbackground-color: blue;\n\tpadding: 10px;\n}",
-			"file": "/C/Users/SB07/Desktop/HTML/CSS/test.css",
-			"file_size": 114,
-			"file_write_time": 132520716291921882,
+			"file": "src/js topic/array.html",
 			"settings":
 			{
-				"buffer_size": 104,
+				"buffer_size": 540,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/array_multiply.html",
+			"settings":
+			{
+				"buffer_size": 267,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/array_sort.html",
+			"settings":
+			{
+				"buffer_size": 451,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/find_num.html",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title></title>\n</head>\n<body>\n\t<script type=\"text/javascript\">\n\t\t\n\t\tfunction maximum(){\n\t\t\tconst a = [10, 25, 1, 36, 8, 96];\n\t\t\tvar max = a[0];\n\t\t\tfor(var i=1; i<a.length; i++){\n\t\t\t\t// if you want minimum number simply change greater than symbol to lesser than symbol\n\t\t\t\tif(a[i]>max){\n\t\t\t\t\tmax = a[i];\n\t\t\t\t}\n\t\t\t}\n\t\treturn max;\n\t\t}\n\t\tconsole.log(maximum());\n\t</script>\n</body>\n</html>",
+			"file": "src/js topic/greater_num.html",
+			"file_size": 438,
+			"file_write_time": 132531311283013151,
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/without_sort.html",
+			"settings":
+			{
+				"buffer_size": 1242,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/array_practice.html",
+			"settings":
+			{
+				"buffer_size": 435,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/student_info.html",
+			"settings":
+			{
+				"buffer_size": 637,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/sort_name.html",
+			"settings":
+			{
+				"buffer_size": 624,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/insert_array.html",
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/array_tag.html",
+			"settings":
+			{
+				"buffer_size": 4472,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js topic/object.html",
+			"settings":
+			{
+				"buffer_size": 1753,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -254,15 +462,32 @@
 	[
 		"/F/study1/soham_ui",
 		"/F/study1/soham_ui/src",
-		"/F/study1/soham_ui/src/js"
+		"/F/study1/soham_ui/src/js",
+		"/F/study1/soham_ui/src/js topic"
 	],
 	"file_history":
 	[
-		"/F/study1/soham_ui/src/js topic/constructor.html",
-		"/F/study1/soham_ui/src/js topic/private_prop_method.html",
+		"/F/study1/soham_ui/src/js topic/insert_array.html",
+		"/F/study1/soham_ui/src/js topic/array_tag.html",
+		"/F/study1/soham_ui/src/js topic/find_num.html",
+		"/F/study1/soham_ui/src/js topic/array.html",
+		"/F/study1/soham_ui/src/js topic/mixin.html",
+		"/F/study1/soham_ui/src/js topic/method_overriding.html",
+		"/F/study1/soham_ui/src/js topic/super_subclass.html",
+		"/F/study1/soham_ui/src/js topic/prototype_inheritance.html",
+		"/C/Users/SB07/Desktop/HTML/prac.html",
+		"/F/study1/soham_ui/src/js topic/greater_num.html",
+		"/C/Users/SB07/Desktop/HTML/CSS/test.css",
+		"/F/study1/soham_ui/src/js topic/one_super_and_two_subclass.html",
+		"/F/study1/soham_ui/src/js topic/prototype_object.html",
+		"/F/study1/soham_ui/src/js topic/prototype_work.html",
 		"/F/study1/soham_ui/src/index.js",
-		"/F/study1/soham_ui/src/js topic/practice.html",
+		"/F/study1/soham_ui/src/js topic/prototype.html",
+		"/F/study1/soham_ui/src/js topic/constructor.html",
 		"/F/study1/soham_ui/src/js topic/factory.html",
+		"/F/study1/soham_ui/src/js topic/iteration_for_in.html",
+		"/F/study1/soham_ui/src/js topic/practice.html",
+		"/F/study1/soham_ui/src/js topic/private_prop_method.html",
 		"/F/study1/soham_ui/src/js topic/for_in.html",
 		"/F/study1/soham_ui/index.html",
 		"/E/study1/soham_ui/src/index.js",
@@ -299,7 +524,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -313,6 +538,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" \n",
+			"remove",
+			"for",
+			"array",
+			"in",
+			"for ",
+			"for in",
+			"div",
 			"document",
 			"\";"
 		],
@@ -332,67 +565,401 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 12,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/SB07/Desktop/HTML/prac.html",
+					"file": "src/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 9890,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								106
+								4677,
+								4677
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"git_gutter_is_enabled": false,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3262.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js topic/array.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js topic/array_multiply.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/Users/SB07/Desktop/HTML/CSS/test.css",
+					"buffer": 3,
+					"file": "src/js topic/array_sort.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 104,
+						"buffer_size": 451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								307,
+								307
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/js topic/find_num.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/js topic/greater_num.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/js topic/without_sort.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/js topic/array_practice.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/js topic/student_info.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								398
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 73.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/js topic/sort_name.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/js topic/insert_array.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/js topic/array_tag.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4375,
+								4375
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 245.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/js topic/object.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1726,
+								1726
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1261.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -400,7 +967,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -441,7 +1008,7 @@
 	"project": "soham_ui.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

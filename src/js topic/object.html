@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		//create javascript object with object literal
+	var person = {name:'sam', 
+				  id:20120, 
+				  no:2513456,
+				  full_info : function() {
+				  	return this.no + ' ' + this.name + ' ' + this.id;
+				  }};
+	// console.log(person.name);
+	// Access method with (), if access method without () it will return the function defination 
+	console.log(person.full_info);
+	console.log(person.full_info());
+
+	// BOOLEAN, STRING AND NUMBERS can be object (IF defined with 'new' keyword)
+
+	console.log(person);
+	
+	// to convert any JS object to string use following statement
+	// var variable_name = JSON.stringify(object);
+
+	var s = JSON.stringify(person);
+	console.log(s);
+
+ 	// JS Accessor GETTER  [get keyword.]
+	// var person = {name:'sam', 
+	// id:20252525, 
+	// no:2513456,
+	// get No() {
+	//   	return this.no + ' ' + this.name + ' ' + this.id;
+ //    }};
+ //    console.log(person.No);
+
+ //    var person = {
+ //    name:'sam', 
+ //    id:'NO', 
+	// no:2513456,
+	// set number(value) {
+	//     this.id = value;
+	//  }
+	// };
+	// // person.number = 454545;
+	// // console.log(person.id);	
+ //    var x = Object.values(person);
+ //    console.log(x);
+
+
+ 	// JS ACCESSORS getter and setter
+
+ 	var person = {
+    name:'sam', 
+    id:'NO', 
+	$30:2513456,
+	set Id_no(value) {
+	    this.id = value;
+	 }
+	};
+
+	person.$30 = "ASD2l";
+	console.log(person.$30);
+
+
+	// Property Name in the following example sandy['1'] and sandy[1] bothe are same, you can use both for declare and calling purpose and you can also use one of them for declare and remaining for calling purpose.
+	let sandy = {}
+	sandy['1'] = 'sam';
+	console.log(sandy['1']);
+
+
+	
+	</script>
+</body>
+</html>
